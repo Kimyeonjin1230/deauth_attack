@@ -40,3 +40,13 @@ snoospy로 비콘이 정상으로 작동하는지 확인하였다.(생략가능)
 ![스크린샷 2024-05-20 06-18-17](https://github.com/Kimyeonjin1230/deauth_attack/assets/114148238/cfaeb9fc-9b82-4a7c-a04b-df38fbc98b08)
 
 성공이다. 연결해제됐다. ctrl+c누를때까지 연결이 안된다.
+
+
+https://living-tortellini-77c.notion.site/repo-deauth-attack-b9d6528ea44d45f2af383317838e1e39?pvs=4
+
+
+
+
+*참조*
+https://blog.naver.com/nms200299/222267279476
+https://www.radiotap.org/
