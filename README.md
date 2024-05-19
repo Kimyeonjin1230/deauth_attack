@@ -4,13 +4,22 @@
 lan 카드를 monitor mode로 바꿔준다.
 
 `ifconfig <old interface> down`
+
 `ip link set <old interface> name <new interface>` //정신없던 인터페이스에서 mon0라는 이름으로 바꿔주겠다.
+
 `ifconfig <new interface> up`
 
-ifconfig <interface> down
-iwconfig <interface> mode monitor
-ifconfig <interface> up
-
-
+`ifconfig mon0 down`
+`iwconfig mon0 mode monitor`
+`ifconfig mon0 up`
 
 ![스크린샷 2024-05-20 00-51-12](https://github.com/Kimyeonjin1230/deauth_attack/assets/114148238/88bd056d-9ae4-4c44-b9ba-46ff80d9261f)
+
+snoospy로 비콘이 정상으로 작동하는지 확인하였다.(생략가능)
+
+![스크린샷 2024-05-20 03-56-39](https://github.com/Kimyeonjin1230/deauth_attack/assets/114148238/1f15bbd5-07eb-4ce0-82b8-1bee1bdfb5f4)
+
+와이어샤크로 헤더부부분의 패킷을 하나하나 프레임으로 담아줬다.
+
+[참고] https://blog.naver.com/nms200299/222267279476
+![스크린샷 2024-05-20 04-16-30](https://github.com/Kimyeonjin1230/deauth_attack/assets/114148238/a241fe6f-4e57-4b35-b167-f8039c01a4e5)
